@@ -1,0 +1,35 @@
+.field {
+    width: 100%;
+    max-width: 180px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: rem(16px);
+    line-height: 19px;
+    border-radius: $border-radius--light;
+}
+
+label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: rem(15px);
+    text-align: left;
+    color: $black;
+    margin-bottom: 6px;
+}
+
+input[type="text"]{
+    @extend .field;
+}
+
+select {
+    @extend .field;
+    &:after{
+        font-size: 16px;
+    }
+}

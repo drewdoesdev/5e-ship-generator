@@ -1,0 +1,18 @@
+.flex_column--start {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex_column--center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_row{
+    display: flex;
+    flex-flow: row nowrap;
+}

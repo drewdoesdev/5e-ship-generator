@@ -1,0 +1,19 @@
+.button {
+    width: 100%;
+    height: 45px;
+    border-radius: $border-radius--normal;
+    outline: none;
+}
+
+.button_primary {
+    @extend .button;
+    background-color:$orange;
+    color: $white;
+    box-shadow:inset 0 -5px 0px -1.5px darken($orange, 20%);
+    &:hover {
+        box-shadow:inset 0 -5px 0px -2.5px darken($orange, 20%);
+    }
+    &:active {
+        background-color: darken($orange, 20%);
+    }
+}

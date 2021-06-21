@@ -1,0 +1,10 @@
+.content_box {
+    @extend .flex_column--start;
+    width: 400px;
+    height: auto;
+    border-radius: $border-radius--normal;
+    background: $kaki;
+    border: 5px solid $light-blue;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
